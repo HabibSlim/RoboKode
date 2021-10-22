@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo>
+    <!-- Type de map : TUTO_MOVE, TUTO_SHOOT, etc.. -->
+    <mapGoal type="TUTO_MOVE">
+        <endCell>5;5</endCell> <!-- Coordonnées de la case finale -->
+    </mapGoal>
+    <!-- Position de départ du personnage -->
+    <startCell>7;2</startCell>
+    <!-- Coordonnées des cases en relief -->
+    <relief>
+        <coord>8;0</coord>
+        <coord>8;1</coord>
+        <coord>8;2</coord>
+        <coord>8;3</coord>
+        <!--           -->
+        <coord>9;0</coord>
+        <coord>9;1</coord>
+        <coord>9;2</coord>
+        <coord>9;3</coord>
+    </relief>
+    <!-- Barrières -->
+    <barrieres>
+        <barriere>
+        </barriere>
+    </barrieres>
+    <!-- Obstacles -->
+    <obstacles>	
+        <coord>6;1</coord>
+        <coord>6;2</coord>
+        <coord>7;1</coord>
+        <coord>5;3</coord>
+        <coord>4;4</coord>
+        <coord>4;5</coord>
+        <coord>5;6</coord>
+        <coord>6;5</coord>
+        <coord>7;4</coord>
+        <coord>8;3</coord>
+        <coord>8;2</coord>
+    </obstacles>
+</mapinfo>

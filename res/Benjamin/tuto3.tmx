@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="128" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/landscape_big.tsx"/>
+ <tileset firstgid="129" source="../Tilesets/details.tsx"/>
+ <tileset firstgid="153" source="../Tilesets/iso_city.tsx"/>
+ <tileset firstgid="281" source="../Tilesets/landscape_dark.tsx"/>
+ <tileset firstgid="321" source="../Tilesets/city_building.tsx"/>
+ <layer name="Calque de Tile 1" width="10" height="10">
+  <data encoding="base64">
+   CgEAAOgAAADoAAAADwEAADgAAAAsAAAAQAAAAJAAAACRAAAAkgAAAO8AAADNAAAAzgAAAPAAAAAzAAAAJgAAADQAAAALAAAACwAAAAsAAADvAAAA2QAAANkAAADwAAAAMwAAADUAAAA0AAAAFwAAABcAAAAXAAAA7wAAANYAAADQAAAAoAAAAD8AAAABAAAARwAAAAsAAABzAAAAcQAAAO8AAADkAAAAxAAAAOgAAADiAAAAIAAAAEsAAABLAAAAZgAAADUBAADvAAAA5AAAAMQAAAD3AAAA4gAAACAAAABLAAAASwAAAGYAAAA1AQAA7wAAAOUAAADBAAAApQAAADgAAAAFAAAAQAAAABcAAAB3AAAAcQAAAO8AAADZAAAA2QAAAPAAAAAzAAAAJgAAADQAAAALAAAACwAAAAsAAADvAAAAzQAAAM4AAADwAAAAMwAAADUAAAA0AAAAFwAAABcAAAAXAAAADgEAAPcAAAD3AAAAEgEAAD8AAAA7AAAARwAAAJAAAACRAAAAkgAAAA==
+  </data>
+ </layer>
+</map>

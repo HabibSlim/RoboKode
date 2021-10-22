@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo>
+    <!-- Type de map : TUTO_MOVE, TUTO_SHOOT, etc.. -->
+    <mapGoal type="TUTO_SHOOT">
+        <!-- Cibles positionnées -->
+        <tower>1;5</tower>
+    </mapGoal>
+    <!-- Position de départ du personnage -->
+    <startCell>8;1</startCell>
+    <!-- Coordonnées des cases en relief -->
+    <relief>
+    </relief>
+    <!-- Barrières -->
+    <barrieres>
+        <!-- Bords du ruisseau -->
+        <barriere>
+            <coord>4;0</coord>
+            <coord>5;0</coord>
+        </barriere>
+        <barriere>
+            <coord>4;1</coord>
+            <coord>5;1</coord>
+        </barriere>
+        <barriere>
+            <coord>4;2</coord>
+            <coord>5;2</coord>
+        </barriere>
+        <barriere>
+            <coord>4;3</coord>
+            <coord>5;3</coord>
+        </barriere>
+        <barriere>
+            <coord>4;4</coord>
+            <coord>5;4</coord>
+        </barriere>
+        <barriere>
+            <coord>4;5</coord>
+            <coord>5;5</coord>
+        </barriere>
+        <barriere>
+            <coord>4;6</coord>
+            <coord>5;6</coord>
+        </barriere>
+        <barriere>
+            <coord>4;7</coord>
+            <coord>5;7</coord>
+        </barriere>
+        <barriere>
+            <coord>4;8</coord>
+            <coord>5;8</coord>
+        </barriere>
+        <barriere>
+            <coord>4;9</coord>
+            <coord>5;9</coord>
+        </barriere>
+    </barrieres>
+    <!-- Obstacles -->
+    <obstacles>
+        <coord>1;5</coord>
+    </obstacles>
+</mapinfo>

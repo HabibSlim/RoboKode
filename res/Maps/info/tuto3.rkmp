@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo>
+    <!-- Type de map : TUTO_MOVE, TUTO_SHOOT, etc.. -->
+    <mapGoal type="TUTO_MULTI">
+        <!-- Cibles positionnées -->
+        <ennemyPos>7;1</ennemyPos>
+    </mapGoal>
+    <!-- Position de départ du personnage -->
+    <startCell>2;8</startCell>
+    <!-- Coordonnées des cases en relief -->
+    <relief>
+        <coord>3;6</coord>
+        <coord>3;7</coord>
+        <coord>3;8</coord>
+    </relief>
+    <!-- Barrières -->
+    <barrieres>
+        <!-- Bords du ponton -->
+        <barriere>
+            <coord>6;1</coord>
+            <coord>7;1</coord>
+        </barriere>
+        <barriere>
+            <coord>7;1</coord>
+            <coord>8;1</coord>
+        </barriere>
+        <!-- -->
+        <barriere>
+            <coord>6;2</coord>
+            <coord>7;2</coord>
+        </barriere>
+        <barriere>
+            <coord>7;2</coord>
+            <coord>8;2</coord>
+        </barriere>
+        <!-- -->
+        <barriere>
+            <coord>6;3</coord>
+            <coord>7;3</coord>
+        </barriere>
+        <barriere>
+            <coord>7;3</coord>
+            <coord>8;3</coord>
+        </barriere>
+        <!-- -->
+        <barriere>
+            <coord>6;4</coord>
+            <coord>7;4</coord>
+        </barriere>
+        <barriere>
+            <coord>7;4</coord>
+            <coord>8;4</coord>
+        </barriere>
+        <!-- -->
+        <barriere>
+            <coord>6;5</coord>
+            <coord>7;5</coord>
+        </barriere>
+        <barriere>
+            <coord>7;5</coord>
+            <coord>8;5</coord>
+        </barriere>
+        <!-- -->
+        <barriere>
+            <coord>7;5</coord>
+            <coord>7;6</coord>
+        </barriere>
+        <!-- -->
+
+    </barrieres>
+    <!-- Obstacles -->
+    <obstacles>
+        <coord>7;0</coord>
+        <coord>3;1</coord>
+        <coord>3;2</coord>
+        <coord>3;3</coord>
+        <coord>3;6</coord>
+        <coord>3;7</coord>
+        <coord>3;8</coord>
+    </obstacles>
+</mapinfo>

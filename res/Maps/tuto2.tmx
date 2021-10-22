@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="128" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/landscape_big.tsx"/>
+ <tileset firstgid="129" source="../Tilesets/landscape_dark.tsx"/>
+ <tileset firstgid="169" source="../Tilesets/iso_city.tsx"/>
+ <layer name="Terrain" width="10" height="10">
+  <data encoding="base64">
+   jgAAAI4AAACOAAAAjgAAAEEAAADzAAAAjgAAAPMAAACOAAAA8wAAAI4AAACOAAAAjgAAAI4AAABBAAAAjgAAAPMAAACOAAAA8wAAAI4AAACOAAAAjgAAAI4AAACOAAAAQQAAAPMAAACOAAAA8wAAAI4AAADzAAAA8QAAAPkAAADxAAAAjgAAAEEAAACOAAAA8wAAAI4AAADzAAAAjgAAAPkAAADxAAAA+QAAAI4AAABBAAAA8wAAAI4AAADzAAAAjgAAAPMAAADxAAAA+QAAAPEAAACOAAAAQQAAAI4AAADzAAAAjgAAAPMAAACOAAAAjgAAAI4AAACOAAAAjgAAAEEAAADzAAAAjgAAAPMAAACOAAAA8wAAAI4AAACOAAAAjgAAAI4AAABBAAAAjgAAAPMAAACOAAAA8wAAAI4AAACOAAAAjgAAAI4AAACOAAAAQQAAAPMAAACOAAAA8wAAAEwAAADzAAAAjgAAAI4AAACOAAAAjgAAACIAAACOAAAA8wAAAI4AAADzAAAAjgAAAA==
+  </data>
+ </layer>
+</map>

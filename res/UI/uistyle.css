@@ -1,0 +1,198 @@
+/* Propriétés CSS globales */
+.root {
+    -fx-font-size: 16px;
+}
+.list-cell:odd {
+    -fx-background-color: #fafaed;
+}
+
+#valider {
+    /* Propriétés principales */
+
+    -fx-padding: 13 15 20 48;
+    -fx-pref-width: 170px;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #f2f2dc, #ecead7);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+
+    /* Icône du bouton */
+
+    -fx-background-image: url('file:res/UI/icons/ok.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+
+}
+#valider:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #fffde8, #f2f1dd);
+}
+#valider:pressed {
+    -fx-padding: 13 15 20 48;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#valider Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+/** ============== **/
+#restart {
+    /* Propriétés principales */
+
+    -fx-padding: 13 15 20 48;
+    -fx-pref-width: 230px;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #f2f2dc, #ecead7);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+
+    /* Icône du bouton */
+
+    -fx-background-image: url('file:res/UI/icons/restart.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+
+}
+#restart:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #fffde8, #f2f1dd);
+}
+#restart:pressed {
+    -fx-padding: 13 15 20 48;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#restart Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+/** ============== **/
+#home {
+    /* Propriétés principales */
+
+    -fx-padding: 13 15 20 48;
+    -fx-pref-width: 60px;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #f2f2dc, #ecead7);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+
+    /* Icône du bouton */
+
+    -fx-background-image: url('file:res/UI/icons/home.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+}
+#home:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #fffde8, #f2f1dd);
+}
+#home:pressed {
+    -fx-padding: 13 15 20 48;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#home Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+/** ============== **/
+#clear {
+    -fx-background-color: transparent;
+    -fx-border-color: #ecead7;
+    -fx-pref-width: 60px;
+    -fx-pref-height: 60px;
+    -fx-background-image: url('file:res/UI/icons/clear.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#clear:hover {
+    -fx-background-color: inherit;
+    -fx-border-color: #8d9dff;
+}
+/** ============== **/
+#commencer {
+    /* Propriétés principales */
+
+    -fx-padding: 10 15 20 48;
+    -fx-pref-width: 200px;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #f2f2dc, #ecead7);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+
+    /* Icône du bouton */
+    -fx-background-image: url('file:res/UI/icons/start.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+}
+#commencer:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #efc9b9 0%, #d9b6a7 100%),
+        #efc9b9,
+        #d9b6a7,
+        radial-gradient(center 50% 50%, radius 100%, #fffde8, #f2f1dd);
+}
+#commencer:pressed {
+    -fx-padding: 10 15 20 48;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#commencer Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}/** ============== **/
+#nextBtn {
+     /* Propriétés principales */
+     -fx-pref-width: 130px;
+     -fx-pref-height: 130px;
+
+     /* Icône du bouton */
+     -fx-background-color: transparent;
+     -fx-background-image: url('file:res/UI/icons/nextLvl.png');
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+#nextBtn:hover {
+     /* Icône du bouton */
+     -fx-background-color: transparent;
+     -fx-background-image: url('file:res/UI/icons/nextLvl_H.png');
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+/** ============== **/
+#listView {
+    -fx-focus-color: transparent;
+}
+/** ============== **/
+#btnBg {
+    -fx-background-color: #373737;
+}

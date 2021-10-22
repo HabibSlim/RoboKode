@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo>
+    <!-- Type de map : TUTO_MOVE, TUTO_SHOOT, etc.. -->
+    <mapGoal type="TUTO_MOVE">
+        <endCell>2;1</endCell> <!-- Coordonnées de la case finale -->
+    </mapGoal>
+    <!-- Position de départ du personnage -->
+    <startCell>1;1</startCell>
+    <!-- Coordonnées des cases en relief -->
+    <relief>
+        <coord>2;1</coord>
+    </relief>
+    <!-- Barrières -->
+    <barrieres>
+        <barriere>
+            <coord>1;1</coord>
+            <coord>2;1</coord>
+        </barriere>
+    </barrieres>
+    <!-- Obstacles -->
+    <obstacles>
+        <!-- Bords du lac -->
+        <coord>2;2</coord>
+        <coord>2;3</coord>
+        <coord>2;4</coord>
+        <coord>2;5</coord>
+        <coord>2;6</coord>
+        <coord>2;7</coord>
+        <!-- =========== -->
+        <coord>2;2</coord>
+        <coord>3;2</coord>
+        <coord>4;2</coord>
+        <coord>5;2</coord>
+        <coord>6;2</coord>
+        <coord>7;2</coord>
+        <!-- =========== -->
+        <coord>7;2</coord>
+        <coord>7;3</coord>
+        <coord>7;4</coord>
+        <coord>7;5</coord>
+        <coord>7;6</coord>
+        <coord>7;7</coord>
+        <!-- =========== -->
+        <coord>2;7</coord>
+        <coord>3;7</coord>
+        <coord>4;7</coord>
+        <coord>5;7</coord>
+        <coord>6;7</coord>
+        <coord>7;7</coord>
+        <!-- Pierres -->
+        <coord>0;1</coord>
+        <coord>0;2</coord>
+        <coord>0;3</coord>
+        <coord>0;4</coord>
+        <coord>0;8</coord>
+        <coord>0;9</coord>
+        <!-- =========== -->
+        <coord>2;9</coord>
+        <coord>5;9</coord>
+        <coord>6;9</coord>
+    </obstacles>
+</mapinfo>

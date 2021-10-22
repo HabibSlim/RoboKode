@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo>
+    <!-- Type de map : TUTO_MOVE, TUTO_SHOOT, etc.. -->
+    <mapGoal type="TUTO_MOVE">
+        <endCell>4;8</endCell> <!-- Coordonnées de la case finale -->
+    </mapGoal>
+    <!-- Position de départ du personnage -->
+    <startCell>4;3</startCell>
+    <!-- Coordonnées des cases en relief -->
+    <relief>
+        <coord>1;1</coord>
+        <coord>2;1</coord>
+        <coord>6;1</coord>
+        <coord>6;2</coord>
+        <coord>7;1</coord>
+        <coord>7;2</coord>
+        <coord>8;1</coord>
+        <coord>8;2</coord>
+    </relief>
+    <!-- Barrières -->
+    <barrieres>
+    	<!-- Bords du lac -->
+        <barriere>
+            <coord>0;3</coord>
+            <coord>0;4</coord>
+        </barriere>
+        <barriere>
+            <coord>1;3</coord>
+            <coord>1;4</coord>
+        </barriere>
+        <barriere>
+            <coord>2;3</coord>
+            <coord>2;4</coord>
+        </barriere>
+        <barriere>
+            <coord>6;3</coord>
+            <coord>6;4</coord>
+        </barriere>
+        <barriere>
+            <coord>7;3</coord>
+            <coord>7;4</coord>
+        </barriere>
+        <barriere>
+            <coord>8;3</coord>
+            <coord>8;4</coord>
+        </barriere>
+        <barriere>
+            <coord>9;3</coord>
+            <coord>9;4</coord>
+        </barriere>
+    	<!-- Bords du pont -->
+    	<!--    Gauche     -->
+        <barriere>
+            <coord>5;4</coord>
+            <coord>6;4</coord>
+        </barriere>
+        <barriere>
+            <coord>5;5</coord>
+            <coord>6;5</coord>
+        </barriere>
+        <barriere>
+            <coord>5;6</coord>
+            <coord>6;6</coord>
+        </barriere>
+    	<!--    Droite     -->
+        <barriere>
+            <coord>2;4</coord>
+            <coord>3;4</coord>
+        </barriere>
+        <barriere>
+            <coord>2;5</coord>
+            <coord>3;5</coord>
+        </barriere>
+        <barriere>
+            <coord>2;6</coord>
+            <coord>3;6</coord>
+        </barriere>
+    </barrieres>
+    <!-- Obstacles -->
+    <obstacles>
+        <!-- Arbres -->
+        <coord>1;1</coord>
+        <coord>2;1</coord>
+        <coord>7;1</coord>
+        <coord>8;1</coord>
+        <coord>7;2</coord>
+        <coord>8;2</coord>
+        <!-- Arbustes -->
+        <coord>3;8</coord>
+        <coord>5;8</coord>
+        <!-- Immeubles -->
+        <coord>3;9</coord>
+        <coord>4;9</coord>
+        <coord>5;9</coord>
+        <!-- =========== -->
+    </obstacles>
+</mapinfo>
