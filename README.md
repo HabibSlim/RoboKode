@@ -24,7 +24,6 @@
 
 * [Introduction](#introduction)
 * [Installation](#installation)
-* [Reproducing results](#reproducing-results)
 * [Crédits](#crédits)
 
 ## Introduction
