@@ -29,7 +29,7 @@
 
 ## Introduction
 
-RoboKode est un serious game en 2D isométrique dédié à l'apprentissage de la programmation, et destiné à des apprenants collégiens. Ce jeu a remporté le prix du jury de professionnels lors d'un concours de serious games à l'[UGA](https://www.univ-grenoble-alpes.fr/) en 2018. Le jeu a été programmé en Java, et [libGDX](https://libgdx.com/), un framework de game development 2D entièrement open-source.
+RoboKode est un serious game en 2D isométrique dédié à l'apprentissage de la programmation, et est destiné à des apprenants collégiens. Ce jeu a remporté le prix du jury de professionnels lors d'un concours de serious games à l'[UGA](https://www.univ-grenoble-alpes.fr/) en 2018. Le jeu a été programmé en Java et [libGDX](https://libgdx.com/), un framework de game development 2D entièrement open-source.
 
 ## Installation
 
